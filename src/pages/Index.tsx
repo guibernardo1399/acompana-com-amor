@@ -2,12 +2,12 @@ import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import {
   BookOpen, Users, Star, Heart, CheckCircle2,
-  MessageCircle, ClipboardList, GraduationCap, ArrowRight, Quote,
+  MessageCircle, Baby, GraduationCap, ArrowRight, Quote, Sparkles,
 } from "lucide-react";
-import heroImg from "@/assets/hero-illustration.jpg";
+import heroImg from "@/assets/pedagoga-hero.jpg";
 import pedagogaImg from "@/assets/pedagoga.jpg";
 
-const WHATSAPP_URL = "https://wa.me/5500000000000?text=Olá! Gostaria de agendar uma aula experimental.";
+const WHATSAPP_URL = "https://wa.me/5591984832468?text=Olá! Gostaria de agendar uma aula experimental.";
 
 const problems = [
   "Dificuldade na escola",
@@ -24,10 +24,10 @@ const solutions = [
 ];
 
 const services = [
-  { icon: BookOpen, title: "Reforço Escolar", desc: "Apoio nas disciplinas com maior dificuldade." },
-  { icon: Users, title: "Acompanhamento Pedagógico", desc: "Orientação completa do processo de aprendizagem." },
-  { icon: ClipboardList, title: "Auxílio em Tarefas", desc: "Ajuda na organização e execução das tarefas escolares." },
-  { icon: GraduationCap, title: "Preparação para Provas", desc: "Revisão focada para melhorar o desempenho em avaliações." },
+  { icon: BookOpen, title: "Aulas Individualizadas", desc: "Aulas individualizadas para o ensino fundamental." },
+  { icon: Baby, title: "Estimulação Infantil", desc: "Estimulação na educação infantil." },
+  { icon: GraduationCap, title: "Reforço e Revisão", desc: "Reforço escolar e revisão para período de provas." },
+  { icon: Sparkles, title: "Atividades Personalizadas", desc: "Atividades personalizadas para cada aluno." },
 ];
 
 const diferenciais = [
@@ -80,10 +80,10 @@ const Index = () => {
             <div className="flex justify-center animate-fade-in-up-delay-2">
               <img
                 src={heroImg}
-                alt="Criança estudando feliz com livros e materiais educativos"
-                width={800}
-                height={640}
-                className="rounded-2xl shadow-xl max-w-full h-auto animate-float"
+                alt="Pedagoga Cecilya - Tia Ceci"
+                width={500}
+                height={600}
+                className="rounded-2xl shadow-xl max-w-[400px] w-full h-auto object-cover"
               />
             </div>
           </div>
@@ -147,17 +147,17 @@ const Index = () => {
             <div className="flex justify-center">
               <img
                 src={pedagogaImg}
-                alt="Foto da pedagoga"
+                alt="Pedagoga Cecilya - Tia Ceci"
                 width={400}
                 height={500}
                 loading="lazy"
-                className="rounded-2xl shadow-lg max-w-[320px] w-full h-auto"
+                className="rounded-2xl shadow-lg max-w-[320px] w-full h-auto object-cover"
               />
             </div>
             <div>
-              <h2 className="text-2xl md:text-3xl font-bold mb-4 text-foreground">Sobre a Pedagoga</h2>
+              <h2 className="text-2xl md:text-3xl font-bold mb-4 text-foreground">Sobre a Tia Ceci</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Apaixonada por educação, com experiência em ensino particular e acompanhamento pedagógico de crianças do ensino fundamental.
+                Sou a Cecilya, pedagoga apaixonada por educação, com experiência em ensino particular e acompanhamento pedagógico de crianças do ensino fundamental e educação infantil.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 Acredito que cada criança tem um ritmo único de aprendizado e merece uma atenção individualizada para alcançar seu potencial.
