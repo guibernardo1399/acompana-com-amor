@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { BookOpen, Phone, Mail, MapPin } from "lucide-react";
+import { GraduationCap, Phone, Mail, MapPin, Instagram } from "lucide-react";
 
 const Footer = () => (
   <footer className="bg-foreground text-primary-foreground">
@@ -7,11 +7,11 @@ const Footer = () => (
       <div className="grid md:grid-cols-3 gap-10">
         <div>
           <div className="flex items-center gap-2 font-heading font-bold text-xl mb-4">
-            <BookOpen className="w-5 h-5" />
-            <span>Pedagoga</span>
+            <GraduationCap className="w-5 h-5" />
+            <span>Tia Ceci</span>
           </div>
           <p className="text-primary-foreground/70 text-sm leading-relaxed">
-            Aulas particulares com acompanhamento personalizado para o desenvolvimento do seu filho.
+            Pedagoga Cecilya — Aulas particulares com acompanhamento personalizado para o desenvolvimento do seu filho.
           </p>
         </div>
         <div>
@@ -26,14 +26,16 @@ const Footer = () => (
         <div>
           <h4 className="font-heading font-bold mb-4">Contato</h4>
           <div className="flex flex-col gap-3 text-sm text-primary-foreground/70">
-            <span className="flex items-center gap-2"><Phone className="w-4 h-4" /> (00) 00000-0000</span>
-            <span className="flex items-center gap-2"><Mail className="w-4 h-4" /> contato@pedagoga.com</span>
-            <span className="flex items-center gap-2"><MapPin className="w-4 h-4" /> Sua cidade, Estado</span>
+            <span className="flex items-center gap-2"><Phone className="w-4 h-4" /> (91) 98483-2468</span>
+            <a href="https://instagram.com/pedagoga.cecilya" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary-foreground transition-colors">
+              <Instagram className="w-4 h-4" /> @pedagoga.cecilya
+            </a>
+            <span className="flex items-center gap-2"><MapPin className="w-4 h-4" /> Belém, PA</span>
           </div>
         </div>
       </div>
       <div className="border-t border-primary-foreground/10 mt-10 pt-6 text-center text-sm text-primary-foreground/50">
-        © {new Date().getFullYear()} Pedagoga — Todos os direitos reservados.
+        © {new Date().getFullYear()} Tia Ceci — Pedagoga Cecilya — Todos os direitos reservados.
       </div>
     </div>
   </footer>

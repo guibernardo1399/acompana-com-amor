@@ -6,38 +6,38 @@
 
 @layer base {
   :root {
-    --background: 200 33% 98%;
-    --foreground: 210 25% 15%;
+    --background: 40 50% 98%;
+    --foreground: 340 30% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 210 25% 15%;
+    --card-foreground: 340 30% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 25% 15%;
+    --popover-foreground: 340 30% 15%;
 
-    --primary: 199 75% 45%;
+    --primary: 340 82% 55%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 152 45% 48%;
+    --secondary: 174 65% 40%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 200 20% 94%;
-    --muted-foreground: 210 12% 45%;
+    --muted: 40 30% 94%;
+    --muted-foreground: 340 10% 45%;
 
-    --accent: 40 95% 62%;
-    --accent-foreground: 210 25% 15%;
+    --accent: 45 95% 58%;
+    --accent-foreground: 340 30% 15%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 200 18% 88%;
-    --input: 200 18% 88%;
-    --ring: 199 75% 45%;
+    --border: 40 20% 88%;
+    --input: 40 20% 88%;
+    --ring: 340 82% 55%;
 
     --radius: 0.75rem;
 
-    --hero-gradient: linear-gradient(135deg, hsl(199 75% 45% / 0.08), hsl(152 45% 48% / 0.08));
-    --section-alt: 152 30% 96%;
+    --hero-gradient: linear-gradient(135deg, hsl(45 95% 58% / 0.12), hsl(340 82% 55% / 0.08));
+    --section-alt: 40 40% 96%;
     --whatsapp: 142 70% 40%;
     --whatsapp-foreground: 0 0% 100%;
 

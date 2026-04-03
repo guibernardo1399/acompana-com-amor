@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, BookOpen } from "lucide-react";
+import { Menu, X, GraduationCap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const WHATSAPP_URL = "https://wa.me/5500000000000?text=Olá! Gostaria de saber mais sobre as aulas particulares.";
+const WHATSAPP_URL = "https://wa.me/5591984832468?text=Olá! Gostaria de saber mais sobre as aulas particulares.";
 
 const navItems = [
   { label: "Início", path: "/" },
@@ -20,8 +20,8 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-card/95 backdrop-blur-md border-b">
       <div className="container flex items-center justify-between h-16">
         <Link to="/" className="flex items-center gap-2 font-heading font-bold text-xl text-primary">
-          <BookOpen className="w-6 h-6" />
-          <span>Pedagoga</span>
+          <GraduationCap className="w-6 h-6" />
+          <span>Tia Ceci</span>
         </Link>
 
         {/* Desktop nav */}

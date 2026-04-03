@@ -20,20 +20,20 @@ const Sobre = () => (
           <div className="flex justify-center">
             <img
               src={pedagogaImg}
-              alt="Foto da pedagoga"
+              alt="Pedagoga Cecilya - Tia Ceci"
               width={400}
               height={500}
               loading="lazy"
-              className="rounded-2xl shadow-lg max-w-[360px] w-full h-auto"
+              className="rounded-2xl shadow-lg max-w-[360px] w-full h-auto object-cover"
             />
           </div>
           <div>
             <h2 className="text-2xl font-bold mb-4 text-foreground">Minha História</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Sou pedagoga apaixonada pelo desenvolvimento infantil e pela transformação que a educação pode proporcionar na vida de cada criança.
+              Sou a Cecilya, pedagoga apaixonada pelo desenvolvimento infantil e pela transformação que a educação pode proporcionar na vida de cada criança. Conhecida carinhosamente como Tia Ceci pelos meus alunos.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Com experiência em aulas particulares e acompanhamento pedagógico, desenvolvi uma metodologia que respeita o ritmo individual de cada aluno, criando um ambiente seguro e estimulante para o aprendizado.
+              Com experiência em aulas particulares, estimulação infantil e acompanhamento pedagógico, desenvolvi uma metodologia que respeita o ritmo individual de cada aluno, criando um ambiente seguro e estimulante para o aprendizado.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               Meu objetivo é que cada aluno não apenas melhore suas notas, mas que desenvolva amor pelo conhecimento e confiança em sua capacidade de aprender.
